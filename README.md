@@ -50,3 +50,24 @@ https://github.com/suseme/sw_arc_in_p
 - for_test：考试用精简 PPT，比起原本的 PPT 精修了一遍，比原本的 PPT 更适合阅读。
   - *introduction 的 word 是个失败的尝试，感觉还是看 PPT 好点。*
 - note：包含各章节的笔记。
+
+## PPT 的 分 Part
+
+从 review 中看来的，能分成三个 Part。
+
+- Part 1 Introduction of software architecture
+  -  [1_Introduction.pptx](for_test/1_Introduction.pptx)
+  -  [2_Architectural_structures_and_views.pptx](for_test/2_Architectural_structures_and_views.pptx)
+- Part 2 Quality attributes
+  -  [3_Understanding_quality_attributes.pptx](for_test/3_Understanding_quality_attributes.pptx)
+  -  [4_Availability.pptx](for_test/4_Availability.pptx)
+  -  [5_Interoperability.pptx](for_test/5_Interoperability.pptx)
+  -  [6_Modifiability.pptx](for_test/6_Modifiability.pptx)
+  -  [7_Performance.pptx](for_test/7_Performance.pptx)
+  -  [8_Security.pptx](for_test/8_Security.pptx)
+  -  [9_Other_quality_attributes.pptx](for_test/9_Other_quality_attributes.pptx)
+  -  [10_Patterns_and_tactics.pptx](for_test/10_Patterns_and_tactics.pptx)
+  -  [11_Quality_Attribute_Modelling_and_Analysis.pptx](for_test/11_Quality_Attribute_Modelling_and_Analysis.pptx)
+- Part 3 Architecture in the life cycle
+  -  [12_Designing_for_ASRs.pptx](for_test/12_Designing_for_ASRs.pptx)
+  -  [13_Evaluating_architecture.pptx](for_test/13_Evaluating_architecture.pptx)
