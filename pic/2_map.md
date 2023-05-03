@@ -10,8 +10,8 @@
 - Component-and-connector (C&C) Structures
   - Service Structure
   - Concurrency Structure
-  - Deployment Structur
 - Allocation Structures
+  - Deployment Structure
   - Implementation Structure
   - Work Assignment Structure
 
