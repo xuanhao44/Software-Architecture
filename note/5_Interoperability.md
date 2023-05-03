@@ -20,7 +20,7 @@
 
 ## Interoperability General Scenario
 
-| Portion of      Scenario         | Possible Values                                              |
+| Portion of Scenario              | Possible Values                                              |
 | -------------------------------- | ------------------------------------------------------------ |
 | Source                           | A system                                                     |
 | 刺激来源                         | 系统                                                         |

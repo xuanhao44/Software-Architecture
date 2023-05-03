@@ -6,7 +6,7 @@
 
 ## Availability General Scenario
 
-| Portion of      Scenario         | Possible Values                                              |
+| Portion of Scenario              | Possible Values                                              |
 | -------------------------------- | ------------------------------------------------------------ |
 | Source                           | Internal/external: people, hardware, software, physical infrastructure, physical environment |
 | 刺激来源                         | 内部/外部：人员、硬件、软件、物理基础设施、物理环境          |
