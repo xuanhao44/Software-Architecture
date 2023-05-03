@@ -52,5 +52,5 @@
     - Use Case Diagram
     - Use Case Description
     - Sequence Diagram
-    - Communication Diagra
+    - Communication Diagram
     - Activity Diagram

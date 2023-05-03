@@ -10,7 +10,7 @@
 
 ## My answer
 
-1. Quality View - Security view
+Quality View - Security View
 
 This view is developed for security engineers of the system. The security engineers will check and deal with the problems or attacks relevant to this system.
 
@@ -22,11 +22,11 @@ This view is developed for security engineers of the system. The security engine
 - Local Communication System (LCS) - A network that provides communications capabilities between LSEs or within a LSE with all of the components under control of a LSE.
 - Communication Network (CN) - A network that provides inter-LSE communications capabilities, but is not controlled by LSEs (e.g., commercial carriers).
 
-Reference: http://www.opengroup.org/public/arch/p4/views/vus_sec.htm
+Reference: <http://www.opengroup.org/public/arch/p4/views/vus_sec.htm>
 
 ---
 
-2. Deployment View
+Deployment View
 
 This view is developed for both security engineers and maintainers of the system. This view can be used to reason about performance and availability of the system.
 
