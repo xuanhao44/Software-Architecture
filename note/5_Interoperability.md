@@ -59,7 +59,6 @@
     - 按照正确的顺序提供业务
     - 将一个参与者产生的信息修改为第二个参与者可以接受的形式。
 
-
 <img src="../pic/Goal of Interoperability Tactics.png" alt="Goal of Interoperability Tactics" style="zoom:80%;" />
 
 ## Interoperability Tactics
@@ -68,7 +67,7 @@
 
 ### Locate 定位
 
-- **Service Discovery**: Locate a service through searching 
+- **Service Discovery**: Locate a service through searching
 - There are many **service discovery** mechanisms:
   - UDDI for Webservices
   - Jini for Java objects
@@ -85,14 +84,13 @@
   - Searched initiative 被寻找者
   - Registration – a middleman 登记（中介）
 
-
 #### Searching Method – Searcher’s initiative 寻找者
 
 - **Flood/Broadcast request** 洪水/广播请求
   - Ask every entity and wait for answer
 - Examples
   - Paging in the location area to find the mobile terminal
-  - DHCP discover: the client broadcasts on the local subnet to find available servers to ask for IP address 
+  - DHCP discover: the client broadcasts on the local subnet to find available servers to ask for IP address
 - Efficient and less resource consuming for the searcher
 - Low resource consuming for the searched
 - But disturbing and resource consuming for the environment
@@ -154,4 +152,3 @@
 - Mapping among Architectural Elements 建筑元素之间的映射
 - Resource Management 资源管理
 - Binding Time 绑定时间
-

@@ -1,6 +1,6 @@
 # Architectural structures and views
 
-参考资料：https://blog.csdn.net/qq_29025955/article/details/123908794
+参考资料：<https://blog.csdn.net/qq_29025955/article/details/123908794>
 
 看到标题先回顾一下 Introduction 里的区分这俩东西的部分：视图是结构的表示。
 
@@ -16,7 +16,7 @@
 
 看了这些之后就能隐隐的理解到，三种结构之前似乎有着某种递进的关系——逐渐的变得具体了起来。详细的对比见 PPT。
 
-具体的在参考资料中理解：https://blog.csdn.net/qq_29025955/article/details/123908794
+具体的在参考资料中理解：<https://blog.csdn.net/qq_29025955/article/details/123908794>
 
 ## 2 Views
 

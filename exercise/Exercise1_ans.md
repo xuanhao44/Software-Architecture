@@ -22,4 +22,3 @@ Utility Tree:
 |                   |                                                       | It must be impossible to plug into the network. (H,H)        |
 |                   |                                                       | Only maintainer are allowed to connect new ATM's to the network. (H,H) |
 | Availability      | Keep running with no downtime                         | The ATM network has to be available 24 hours a day. (H,H)    |
-

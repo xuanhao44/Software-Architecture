@@ -5,7 +5,7 @@
 
 - Submission:
 
-  - Deadline:   April 21st 
+  - Deadline: April 21st
 
   - Place: submit to Blackboard
 
@@ -15,9 +15,9 @@ The slide 'evaluating_architecture' tells the basic info of ATAM (Architecture T
 
 We have done steps 1-5 previously — we created a utility tree. Steps 7-9 are evaluation.
 
-6. Analyze Architectural Approaches
-7. Brainstorm and Prioritize Scenarios
-8. Analyze Architectural Approaches (performs the same activities as in step 6)
+6 Analyze Architectural Approaches
+7 Brainstorm and Prioritize Scenarios
+8 Analyze Architectural Approaches (performs the same activities as in step 6)
 
 More info about **step 6**: We need to find **risk points, sensitivity points and trade-off points**.
 
@@ -62,7 +62,7 @@ Availability scenario: Keep running with no downtime. The ATM network has to be 
 
 Performance scenario: The user can withdraw a limit of $300 from an account that has sufficient funds in less than 10 seconds.
 
-Review the knowledge of availability and performance, then evaluate this model that has a **backup database**. 
+Review the knowledge of availability and performance, then evaluate this model that has a **backup database**.
 
 *In this step, there is no need to concern about the difference between active redundancy (hot spare), spare (cold spare) and passive redundancy (warm spare).*
 
@@ -80,4 +80,3 @@ So the risk points, sensitivity points and trade-off points can be:
   - Improves availability, but decreases performance
 - Risk point
   - It is important to choose one kind of spare strategies: hot spare, cold spare and warm spare, because the trade-off can only be measured after this choose.
-

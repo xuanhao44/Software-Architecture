@@ -86,11 +86,6 @@ We can characterize quality attributes as a collection of **general scenarios**.
 
   图 4.2 显示了一个通用场景的示例，在这个示例中是可用性。
 
-
-
 ![Example general scenario for availability](../pic/Example general scenario for availability.png)
 
-
-
 **Note：也就是说有一般的场景集合的描述（针对某个质量要求），也有特定的系统的场景的描述。**
-
