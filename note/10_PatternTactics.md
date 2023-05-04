@@ -1,4 +1,4 @@
-# Patterns and Tactics
+# 10 Patterns and Tactics
 
 这一章的内容不多，就是讲了一些常见的模式，是按照和结构对应的分类来讲的。不过更值得关注的是后面两个部分。
 

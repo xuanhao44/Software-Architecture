@@ -1,4 +1,4 @@
-# Understanding quality attributes
+# 3 Understanding quality attributes
 
 该章重点就是 **Quality attribute scenario**，其余的部分看大纲和 PPT 很快就能理解。由于这个部分是如此重要，以至于我必须贴原文。
 

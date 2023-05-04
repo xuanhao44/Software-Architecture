@@ -5,7 +5,7 @@
     - Describe what additional materials you used
 
 - Submission:
-  - Deadline:  April 21st
+  - Deadline: April 21st
   - Place: submit to Blackboard
 
 ## Reference

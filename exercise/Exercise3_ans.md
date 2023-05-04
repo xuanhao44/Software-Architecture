@@ -5,7 +5,7 @@
 - For each view describe **who and when will need** to use this view.
 
 - Submission:
-  - Deadline:   April 21st
+  - Deadline: April 21st
   - Place: submit to Blackboard
 
 ## Reference
