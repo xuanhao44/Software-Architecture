@@ -1,11 +1,5 @@
 # ASR (Architecturally Significant Requirement)
 
-By the end of this lesson you will be able to:
-
-- understand the concept of ASR
-- identify and capture ASR
-- design for ASR
-
 ## 1 the concept of ASR
 
 Architectures exist to build systems that satisfy requirements.
@@ -15,13 +9,6 @@ But, to an architect, not all requirements are created equal.
 An **Architecturally Significant Requirement** (ASR) is a requirement that will **have a profound effect on the architecture**.
 
 ## 2 identify and capture ASR
-
-### 2.0 Overview - Approaches to Capture ASRs
-
-- From Requirements Document
-- By Interviewing Stakeholders
-- By Understanding the Business Goals
-- **In Utility Tree** (效用树，实际的含义还要看下面讲解)
 
 ### 2.1 From Requirements Document
 
@@ -173,11 +160,7 @@ How should you employ requirements documents, stakeholder interviews, Quality At
 - If important stakeholders have been overlooked in the requirements-gathering process, **use interviews or a QAW**.
 - Use a **quality attribute utility tree** as a repository for the scenarios produced by a **QAW**.
 
-## 3 design for ASR
-
-Designing an Architecture
-
-### 3.0 Overview - Design Strategy
+## 3 Designing an Architecture - Design Strategy
 
 - Decomposition
 - Designing to Architecturally Significant Requirements
