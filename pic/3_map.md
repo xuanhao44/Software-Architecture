@@ -31,7 +31,7 @@
 
 ## 3 An architectural tactic
 
-- **A chieving Quality Attributes through Tactics**
+- **Achieving Quality Attributes through Tactics**
 - A tactic is a design decision for a single quality attribute
 - A tactic does not consider tradeoffs among quality attributes
 - Architectural patterns can be seen as “packages” of tactics, in which tradeoffs are considered
