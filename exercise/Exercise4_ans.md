@@ -9,6 +9,17 @@
 
   - Place: submit to Blackboard
 
+
+## Reference
+
+We started this discussion in class and gave examples as well. You just need to think about a dew more sensitivity and trade-off points, based on the design described in a worksheet. Here is the example we gave for the simple design we discussed in class:
+
+“This system instantiates Client-Server pattern. The benefits of this pattern are that it is easy to add clients and the servers may be replicated to support scalability and modifiability. However it also has disadvantages. The server can be a performance bottleneck and a single point of failure. In addition, decisions about where to locate functionality are often complex and costly to change after a system is build, which impacts modifiability.
+
+Sensitivity point: Server can be a performance bottleneck and a single point of failure
+
+Trade-off: Improves scalability and modifiability but decreases performance”.
+
 ## Summary and example in slide
 
 The slide 'evaluating_architecture' tells the basic info of ATAM (Architecture Tradeoff Analysis Method), including phases of the ATAM. However, the further details of phases of the ATAM are mentioned in the slide of exercise 4.

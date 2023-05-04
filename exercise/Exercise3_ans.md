@@ -8,6 +8,12 @@
   - Deadline:   April 21st
   - Place: submit to Blackboard
 
+## Reference
+
+The examples were given in class. You just need to develop 2 more (different views of this system). Each view is useful for different purpose/different stakeholders. For example, the view shown below would be useful to the programmer as well as the tester.
+
+![exercise 3 reference view](../pic/exercise 3 reference view.png)
+
 ## My answer
 
 Quality View - Security View

@@ -4,11 +4,19 @@
   - Based on the document given in class and/or based on additional information (internet articles, interviews with the stakeholders)
     - Describe what additional materials you used
 
-![Utility_Tree_Example](../pic/Utility_Tree_Example.png)
-
 - Submission:
   - Deadline:  April 21st
   - Place: submit to Blackboard
+
+## Reference
+
+- For the examples of utility tree please see the textbook as well as the PPT slides from our lecture, we also did a review of utility tree in our exercise class, the example is in these PPR as well.
+- The utility tree for this assignment does not need to be complete, you were just asked to have 6 ASRs in your tree.
+- First, pick your ASRs – you need to decide by yourself what requirements are important for this system and describe them using the concrete scenario form – the concrete scenario form can be found in our PPT.
+- Then organize your ASRs based on quality attributes to build a tree, make sure that there is a root node in your tree and that you assigned priorities (impact on architecture and business value) to your ASRs.
+- Below is an example of a utility tree for another system.
+
+![Utility_Tree_Example](../pic/Utility_Tree_Example.png)
 
 ## My answer
 

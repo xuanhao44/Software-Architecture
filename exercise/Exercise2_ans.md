@@ -5,6 +5,14 @@
   - Deadline:   April 21st
   - Place: submit to Blackboard
 
+## Reference
+
+- Each student’s design will be different, depending on which fragment of the system the student will choose to focus on and which architectural pattern they choose.
+- You just need to show one part of the design.
+- We have performed the first step in class, below is our design. For your assignment you could pick any of the components from our design (for example an Web client) and decompose it into components – you could choose a layered pattern as shown in the example below.
+
+<img src="../pic/exercise 2 example ans.jpg" alt="exercise 2 example ans" style="zoom:50%;" />
+
 ## My answer
 
 ### round 1: Availability
