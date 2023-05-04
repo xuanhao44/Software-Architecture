@@ -1,369 +1,158 @@
 # ASR (Architecturally Significant Requirement)
 
-## 1 the concept of ASR
+这一部分的内容来自于书中第三部分 生命周期中的架构的第 16 和 17 讲，但是 PPT 的标题却仅用 16 讲的主题作为标题，很有误导性。
 
-Architectures exist to build systems that satisfy requirements.
+## ASR
 
-But, to an architect, not all requirements are created equal.
+ASR 的来源主要是各个利益相关者和商业目标的。这一部分最重要的两个内容是 QAW 和 Utility tree。
 
-An **Architecturally Significant Requirement** (ASR) is a requirement that will **have a profound effect on the architecture**.
+### QAW (Quality Attribute Workshop)
 
-## 2 identify and capture ASR
+要点是：针对各个 stakeholder，细化场景 (Quality Attribute Scenarios)，且确立优先级。
 
-### 2.1 From Requirements Document
-
-An obvious location to look for candidate (候选) ASRs is in the **requirements documents**.
-
-Requirements should be in requirements documents!
-
-Unfortunately, this is not usually the case.
-
----
-
-**Many projects don’t create or maintain the detailed, high-quality requirements documents.**
-
-Standard requirements pay more attention to functionality than quality attributes.
-
-The architecture **is driven by quality attribute requirements** rather than functionalities.
-
-Most requirements specification does not affect the architecture.
-
----
-
-**Quality attributes are often captured poorly**, e.g.
-
-- “The system shall be modular (模块化)”
-- “The system shall exhibit high usability”
-- “The system shall meet users’ performance expectations”
-
-Much of what is useful to an architect is not in even the best requirements document.
-
-ASRs often derive from **business goals** in the development organization itself.
-
-### 2.2 Gathering ASRs from Stakeholders
-
-**Stakeholders** often have no idea what QAs they want in a system.
-
-- if you insist on quantitative (量化的) QA requirements, you’re likely to get numbers that are arbitrary.
-- at least some of those requirements will be very difficult to satisfy.
-
-**Architects** often have very good ideas about what QAs are reasonable to provide.
-
-**Interviewing the stakeholders** is the surest (最确信的) way to learn what they know and need.
-
----
-
-**The results of stakeholder interviews** should include
-
-- a list of **architectural drivers**
-- a set of **QA scenarios** that the stakeholders (as a group) prioritized.
-
-This information can be used to:
-
-- **refine** (细化) system and software **requirements**
-- **understand** and **clarify** the system’s **architectural drivers** (架构驱动因素，塑造架构的主要质量属性目标)
-- provide rationale (根本原因，逻辑依据) for why the architect subsequently (随后) made certain design decisions
-- guide the development of prototypes and simulations
-- influence **the order** in which the **architecture is developed**.
-
-#### QAW (Quality Attribute Workshop)
-
-The QAW is a facilitated, **stakeholder-focused** method to generate, prioritize, and refine **quality attribute scenarios** before the software architecture is completed.
-
----
-
-Quality Attribute Scenario: Example
+*感觉这个 Part 没在作业中出现。*
 
 ---
 
 QAW Steps:
 
-1. QAW Presentation and Introductions.
+1. QAW Presentation and Introductions. QAW 演示和介绍。
+
    - QAW facilitators describe the **motivation** for the QAW and explain **each step** of the QAW.
-2. Business/Mission Presentation.
+
+     质量保证原则促进者描述质量保证原则的动机，并解释质量保证原则的每个步骤。
+
+2. Business/Mission Presentation. 业务/任务展示。
+
    - The stakeholder representing the business concerns presents the **system’s business context**, broad **functional requirements**, **constraints**, and **known quality attribute requirements**.
+
+     代表着业务关注点的利益相关者展示**系统的业务环境**、广泛的**功能需求**、**约束**和**已知的质量属性需求**。
+
    - The quality attributes will be derived largely from the business/mission needs.
-3. Architectural Plan Presentation.
+
+     质量属性将主要来源于业务/任务需求。
+
+3. Architectural Plan Presentation. 架构设计方案展示。
+
    - The architect will present the **system architectural plans**.
+
+     架构师将提交**系统架构方案**。
+
    - This lets stakeholders know the current architectural thinking.
-4. Identification of Architectural Drivers.
+
+     这让利益相关者了解当前的架构思维。
+
+4. Identification of Architectural Drivers. 识别架构驱动因素。
+
    - The facilitators will share **their list of key architectural drivers** assembled during Steps 2 and 3,
+
+     引导者将分享他们在步骤 2 和 3 中组装的关键架构驱动程序列表，
+
    - **Architectural drivers** includes overall requirements, business drivers, constraints, and quality attributes.
+
+     **架构驱动**包括总体需求、业务驱动、约束和质量属性。
+
    - ask the stakeholders for clarifications, additions, deletions, and corrections, and **achieve a consensus** on the architectural drivers.
-5. Scenario Brainstorming.
+
+     要求利益相关者澄清、添加、删除和更正，并就架构驱动达成共识。
+
+5. Scenario Brainstorming. 场景的头脑风暴。
+
    - Each stakeholder expresses a scenario representing his or her concerns with respect to the system.
+
+     每个利益相关者表达一个场景，代表他或她对系统的关注。
+
    - Facilitators ensure that each scenario has an explicit stimulus and response.
+
+     促进者确保每个场景都有明确的刺激和反应。
+
    - Make at least **one representative scenario** for each architectural driver listed in Step 4.
-6. Scenario Consolidation.
+
+     为步骤 4 中列出的每个架构驱动程序制作至少一个代表性场景。
+
+6. Scenario Consolidation. 场景整合。
+
    - Similar scenarios are consolidated where reasonable.
-7. Scenario Prioritization.
+
+     合理合并类似场景。
+
+7. Scenario Prioritization. 场景优先级。
+
    - Allocating each stakeholder a number of votes equal to 30 percent of the total number of scenarios.
+
+     为每个利益相关者分配相当于场景总数 30% 的选票。
+
    - Each stakeholder allocate their votes to scenario.
-8. Scenario Refinement.
+
+     每个利益相关者分配他们对场景的投票。
+
+8. Scenario Refinement. 场景细化。
+
    - The top scenarios are refined and elaborated.
+
+     对顶级场景进行细化和阐述。
+
    - Facilitators help the stakeholders put the scenarios in the six-part scenario form.
 
-### 2.3 Capturing ASRs in a Utility Tree
+     引导者帮助利益相关者将场景以六部分场景的形式呈现。
 
-An ASR must have the following characteristics:
+### Utility tree
 
-- *A profound impact on the architecture*
+- An ASR must have the following characteristics:
 
-  Including this requirement will very likely result in a different architecture than if it were not included.
+  - *A profound impact on the architecture*
 
-- *A high business or mission value*
+    Including this requirement will very likely result in a different architecture than if it were not included.
 
-  If the architecture is going to satisfy this requirement it must be of high value to important stakeholders.
+  - *A high business or mission value*
 
-#### Utility Tree
-
-A way to **record ASRs all in one place**.
-
-Establishes priority of each ASR in terms of
-
-- Impact on architecture
-
-- Business or mission value
-
-**ASRs are captured as scenarios**.
-
-Root of tree is placeholder node called “Utility”.
-
-Second level of tree contains broad QA categories.
-
-Third level of tree refines those categories.
-
-**Leaf nodes are the concrete quality attribute scenarios**.
+    If the architecture is going to satisfy this requirement it must be of high value to important stakeholders.
 
 ---
 
-Utility Tree Example (excerpt) (节选)
+- A way to **record ASRs all in one place**.
+
+- Establishes priority of each ASR in terms of
+
+  - Impact on architecture
+
+  - Business or mission value
+
+- **ASRs are captured as scenarios**.
+
+- Draw
+
+  - Root of tree is placeholder node called “Utility”.
+
+  - Second level of tree contains broad QA categories.
+
+  - Third level of tree refines those categories.
+
+  - **Leaf nodes are the concrete quality attribute scenarios**.
+
+- Utility Tree Example (节选)
 
 ![Utility_Tree_Example](../pic/Utility_Tree_Example.png)
 
----
-
-Next Steps
-
-ASRs that rate a (H,H) rating are the ones that deserve the most attention.
-
-- *A very large number of these might be a cause for concern: Is the system achievable?*
-
-Stakeholders can review the utility tree to make sure their concerns are addressed.
-
-### 2.4 Tying the Methods Together
-
-Summary of identify and capture ASR
-
-How should you employ requirements documents, stakeholder interviews, Quality Attribute Workshops, and utility trees together?
-
-- If important stakeholders have been overlooked in the requirements-gathering process, **use interviews or a QAW**.
-- Use a **quality attribute utility tree** as a repository for the scenarios produced by a **QAW**.
-
-## 3 Designing an Architecture - Design Strategy
-
-- Decomposition
-- Designing to Architecturally Significant Requirements
-- Generate and Test
-
-### 3.1 Decomposition
-
-Architecture determines quality attributes.
-
-**Important quality attributes** are characteristics of the *whole* system.
-
-Design begins with the whole system.
-
-- **The whole system is decomposed into parts**.
-- Each part may inherit all or part of the quality attribute requirements.
-
-### 3.2 Designing to Architecturally Significant Requirements
-
-Remember architecturally significant requirements (ASRs)?
-
-These are the requirements that you must satisfy with the design.
-
-- There are a **small number** of these.
-- They are the **most important** (by definition).
-
-Two questions:
-
-- What happens to the other requirement?
-- Do I design for one ASR at a time or all at once?
+- Next Steps:
+  - ASRs that rate a (H,H) rating are the ones that deserve the most attention. *左边的是对架构的重要程度，右边的是对商业目标（价值）的重要程度。*
+  - **A very large number of these might be a cause for concern: Is the system achievable?*
+  - Stakeholders can review the utility tree to make sure their concerns are addressed.
 
 ---
 
-What About Other Quality Requirements?
+关于作业：[作业 1](../exercise/Exercise1_ans.md) 就是画一个效用树。具体的画的过程和作业写在一起了。可以看到画 Utility Tree 的最后也把 ASR 画出了，算是一举两得。
 
----
+## The Steps of Add
 
-How Many ASRs Simultaneously?
-
-### 3.3 Generate and Test
-
-View the **current design as a hypothesis**.
-
-Ask whether the current design satisfies the requirements (**test**).
-
-If not, then **generate** a new hypothesis.
-
----
-
-Raises the Following Questions
-
-- Where does initial hypothesis come from?
-- How do I test a hypothesis?
-- How do I generate the next hypothesis?
-- When am I done?
-
----
-
-Where Does the Initial Hypothesis Come From?
-
-- **Existing systems**
-  - Very few systems are completely constructed from the scratch
-- **Frameworks**
-  - A **partial** design that provides services that are common in particular domains, e.g., web applications, middleware
-  - A design framework may constrain communication to be via a broker, or publish-subscribe system
-- **Less** **desirable** sources
-  - Patterns and tactics
-  - Design checklists
-- Why “less desirable”?
-  - The less desirable ones **do not cover all of the requirements**.
-  - They typically omit many of the quality attribute requirements.
-
----
-
-How Do I Test a Hypothesis?
-
-- The **analysis technique** described previously
-- **Design checklists** from quality attribute discussion.
-- Architecturally significant requirements
-- What is the output of the tests?
-  - List of requirements – either responsibilities or quality – **not met** by current design.
-
----
-
-How Do I Generate the Next Hypothesis?
-
-- Add missing responsibilities.
-- Use tactics to adjust quality attribute behavior of hypothesis.
-  - The choice of tactics will depend on which quality attribute requirements are not met.
-  - Be mindful of the side effects of a tactic.
-
----
-
-When Am I Done?
-
-- All ASRs are satisfied and/or…
-- You run out of budget for design activity
-  - In this case, use the best hypothesis so far and begin implementation
-  - To relax or eliminate the requirement
-  - To argue for more budget
-
----
-
-The Attribute-Driven Design Method
-
-- An iterative method. At each iteration you
-  - **Choose a part** of the system to design.
-  - **Marshal** all the architecturally significant requirements for that part.
-  - **Generate and test a design** for that part.
-- ADD does not result in a complete design
-  - Set of containers with responsibilities
-  - Interactions and information flow among containers
-- Does not produce an API for containers.
-
----
-
-ADD Inputs
-
-- Requirements
-  - Functional, quality, constraints
-- A context description
-  - What are the boundary of the system being designed?
-  - What are the external systems, devices, users and environment conditions with which the system being designed must interact?
-
----
-
-ADD Outputs
-
-- Architectural elements and their relationship
-  - Responsibility of elements
-  - Interactions
-  - Information flow among the elements
-
----
-
-The Steps of ADD
+重点是分解 (Decomposition)，一次处理一个部分和迭代。
 
 1. **Choose an element** of the system to design.
-
 2. **Identify the ASRs** for the chosen element.
-
 3. **Generate a design solution** for the chosen element.
-
 4. **Inventory remaining requirements** and select the input for the next iteration.
-
 5. Repeat steps 1–4 until all the ASRs have been satisfied.
 
 ---
 
-Quality Attribute Requirements
-
-- If the quality attribute requirement has been **satisfied**, it does not need to be further considered
-- If the quality attribute requirement has not been satisfied then either
-  - **Delegate** it to one of the child elements
-  - **Split** it among the child elements
-- If the quality attribute **cannot be satisfied**, see if it can be weakened. If it cannot be satisfied or weakened then it cannot be met.
-
----
-
-Constraints
-
-Constraints are treated as quality attribute requirements have been treated.
-
-- Satisfied
-- Delegated
-- Split
-- Unsatisfiable
-
----
-
-Repeat Steps 1–4 Until All ASRs are Satisfied
-
-- At end of step 4, each child element will have associated with it a set of:
-  - functional requirements,
-  - quality attribute requirements, and
-  - constraints.
-- This sets up the child element for the next iteration of the method.
-
-## 4 Summary
-
-Architectures are driven by Architecturally Significant Requirements (ASRs):
-
-- requirements that will have profound effects on the architecture.
-
-ASRs may be captured
-
-- from requirements documents,
-- by interviewing stakeholders, or
-- by conducting a Quality Attribute Workshop.
-
----
-
-A useful representation of quality attribute requirements is in a utility tree.
-
-The utility tree helps to capture these requirements in a structured form.
-
-Scenarios are prioritized.
-
-This prioritized set defines your “marching orders” as an architect.
-
----
-
-Designing Strategies
-
-- Decomposition
-- Designing to Architecturally Significant Requirements
-- Generate and Test
+关于作业：[作业 2](../exercise/Exercise2_ans.md) 就是画一个 ADD 的过程。
