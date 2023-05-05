@@ -26,7 +26,9 @@ The slide 'evaluating_architecture' tells the basic info of ATAM (Architecture T
 We have done steps 1-5 previously — we created a **utility tree**, while steps 7-9 are evaluation.
 
 6 Analyze Architectural Approaches
+
 7 Brainstorm and Prioritize Scenarios
+
 8 Analyze Architectural Approaches (performs the same activities as in step 6)
 
 The most improtant step is **step 6**: We need to find **risk points, sensitivity points and trade-off points**.
