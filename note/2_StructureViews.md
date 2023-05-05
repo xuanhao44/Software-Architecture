@@ -2,6 +2,10 @@
 
 参考资料：<https://blog.csdn.net/qq_29025955/article/details/123908794>
 
+在本地也有一份拷贝：[2_addition_structure](2_addition_structure.md)
+
+---
+
 看到标题先回顾一下 Introduction 里的区分这俩东西的部分：视图是结构的表示。
 
 这篇的大纲就是先讲几种结构，再讲一些视图，最后是软件体系结构的文档（视图 + 其他说明的部分）。还需要注意的前提是：这里讲到的结构和视图、还有构建文档的知识都只列举的一部分而非全部。
@@ -16,7 +20,7 @@
 
 看了这些之后就能隐隐的理解到，三种结构之前似乎有着某种递进的关系——逐渐的变得具体了起来。详细的对比见 PPT。
 
-具体的在参考资料中理解：<https://blog.csdn.net/qq_29025955/article/details/123908794>
+具体的在参考资料中理解：[2_addition_structure](2_addition_structure.md)
 
 ## 2 Views
 
