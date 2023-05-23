@@ -40,6 +40,17 @@ Joanna Siebert
   - 没有考的是作业 2，比作业 2 简单，只是让你去列出了三个解决 ASR 的 Tactics
   - 作业 4 考的更难了，要列举两组 sensitivity points 和 trade-off points（没有 risk points）。真是要了人老命，写一组还行，第二组是真不知道写啥。
 
+---
+
+最后分数（本人）：96
+
+排名 2/20
+
+|        分项         | 满分 | 比重  | 得分 |
+| :-----------------: | :--: | :--: | :--: |
+| practical exercises | 100  |  30  | 100  |
+|    participation    | 100  |  10  | 100  |
+|  final examination  | 100  |  60  |  94  |
 
 ## 参考书籍
 
